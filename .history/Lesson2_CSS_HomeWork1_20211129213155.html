@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="Lesson2_CSS_HomeWork1.css">
+</head>
+<body>
+    <form>
+       <div>
+        <table>
+            <tr>
+                <td colspan="1" ><label for="email">Email</label> </td>
+                <td colspan="2" ><label for="password">Password</label></td>
+            </tr>
+            <tr>
+                <td colspan="1" class="td-email"><input type="text" name="email" id="input-email"></td>
+                <td colspan="2" class="td-password"><input type="password" name="password" id="input-password"></td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <label for="address1">Address</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="text" name="address1" id="address1" class="address1">
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <label for="address2">Address 2</label>
+                </td>
+            </tr>
+            <tr>
+                <td colspan="3">
+                    <input type="text" name="address2" id="address2" class="address2">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <label for="city">City</label>
+                </td>
+                <td>
+                    <label id="label-state" for="state">State</label>
+                </td>
+                <td>
+                    <label for="zipcode">Zip</label>
+                </td>
+            </tr>
+            <tr>
+                <td class="td-city">
+                    <input type="text" name="city" id="input-city">
+                </td>
+                <td class="td-state">
+                    <select name="state" id="input-state">
+                        <option value="Arizona" selected>Arizona</option>
+                        <option value="California">California</option>
+                    </select>
+                </td>
+                <td class="td-zip">
+                    <input type="number" name="zip" id="input-zip" maxlength="6">
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="checkbox" name="check" id="check">
+                    <label id="label-check" for="check">Check me out</label>
+                </td>
+            </tr>
+            <tr>
+                <td>
+                    <input type="submit" value="Sign in" id="submit-button">
+                </td>
+            </tr>
+        </table>
+       </div>
+    </form>
+    <ul>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Home">Home</a></li>
+        <li><a href="#Home">Home</a></li>
+        
+    </ul>
+    <div style="display: inline-block;">
+        <label for="user">Username</label><br>
+        <input type="text" id="user" style="margin: 50px; border: 1px solid aqua;">
+    </div>
+    <div style="display: inline-block;">
+        <label for="pass">Username</label><br>
+        <input type="text" id="pass" style="margin: 50px; border: 1px solid aqua;">
+    </div>
+</body>
+</html>

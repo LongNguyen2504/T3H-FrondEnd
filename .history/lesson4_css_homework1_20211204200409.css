@@ -1,0 +1,12 @@
+*{
+    box-sizing: border-box;
+}
+.ancestor-div{
+    background-color: #ebebeb;
+    /* justify-content: center; */
+
+}
+.top-div{
+    width: 100%;
+    height: 210px;
+}

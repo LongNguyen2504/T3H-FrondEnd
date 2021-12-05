@@ -1,0 +1,13 @@
+div.ancestor-div{
+    background-color: aqua; 
+    width: 700px; height: 350px;
+    font-family: 'Times New Roman', Times, serif;
+}
+div.city-div{
+    background-color: #666666;
+    text-align:  center;
+    font-size: 40px;
+    /* height: 80px; */
+    color: white;
+    
+}

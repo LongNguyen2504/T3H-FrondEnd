@@ -1,0 +1,8 @@
+div.ancestor-div{
+    width: 650px;
+    height: 300px;
+    background-color: #f5f5dd;
+}
+div.email-div #input-email{
+    border: 1px solid aqua;
+}

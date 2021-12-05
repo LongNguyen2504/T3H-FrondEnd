@@ -1,0 +1,66 @@
+div.ancestor-div{
+    background-color: aqua; 
+    width: 700px; height: 350px;
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.city-div{
+    background-color: #666666;
+    
+    /* height: 80px; */
+    color: white;
+    height: 100px;
+    
+}
+div.div-text-city{
+    text-align:  center;
+    font-size: 40px;
+    position: relative;
+    top: 25px;
+    font-weight: bold;
+}
+div.left-column{
+    width: 150px;
+    height: 200px;
+    background-color: #cccccc;
+    /* display: inline-block; */
+}
+li.first-list{
+    position: relative;
+    top: 25px;
+    left: 15px;
+    list-style-type: none;
+    
+}
+div.right-column{
+    /* display: inline-block; */
+    /* margin-left: 25px ; */
+    background-color: #f1f1f1 ;
+    width: 550px;
+    height: 200px;
+    position: relative;
+    left: 150px;
+    bottom: 220px;
+}
+div.paragraph{
+    position: relative;
+    top: 30px;
+    margin-left: 20px;
+}
+p.London-paragraph{
+    font-size: 10px;
+    font-weight: bold;
+}
+div.footer{
+    text-align: center;
+    position: relative;
+    bottom: 220px;
+    height: 51px;
+    background-color: #777777 ;
+}
+div.footer-content{
+    position: relative;
+    top: 15px;
+    color: white;
+    font-size: 10px;
+}

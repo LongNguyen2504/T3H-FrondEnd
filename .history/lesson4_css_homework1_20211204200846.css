@@ -1,0 +1,20 @@
+*{
+    box-sizing: border-box;
+}
+.ancestor-div{
+    /* background-color: #ebebeb; */
+    background-color: aqua;
+    /* justify-content: center; */
+    font-family: 'Times New Roman', Times, serif;
+
+}
+.top-div{
+    width: 100%;
+    height: 210px;
+    border-bottom: 1px solid gray;
+    background-color: aqua;
+}
+.footer-div{
+    width: 100%;
+    height: 378px;
+}

@@ -1,0 +1,33 @@
+div.ancestor-div{
+    width: 900px;
+    height: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.menu-div{
+    height: 48px;
+    background-color: #333333 ;
+}
+div.menu-content{
+    position: relative;
+    left: -40px;
+    width: 800px;
+    height: 48px;
+}
+ul.ul-menu{
+    list-style-type: none;
+    
+}
+.li-menu {
+ float: left; 
+}
+a.a-menu{
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.a-menu:hover{
+    background-color: #4caf50;
+}

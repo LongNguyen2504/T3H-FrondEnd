@@ -1,0 +1,110 @@
+div.ancestor-div{
+    width: 740px;
+    height: 300px;
+    background-color: #f5f5dd;
+    /* background-color: grey; */
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+}
+div.email-div #input-email{
+    
+    width: 340px;
+    margin-left: 3px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+div.password-div #input-password{
+    
+    width: 340px;
+    margin-left: 3px;
+    border-radius: 3px;
+    border: 1px solid grey;
+    
+}
+.label-position{
+    position: relative;
+    bottom: 5px;
+    /* left: 1px; */
+}
+div.email-div{
+    display: inline-block;
+    position: relative;
+    left: 20px;
+    top: 15px;
+}
+div.password-div{
+    display: inline-block;
+    position: relative;
+    left: 22px;
+    top: 15px;
+}
+div.address1{
+    position: relative;
+    top: 30px;
+    left: 20px;
+}
+div.address2{
+    position: relative;
+    top: 50px;
+    left: 20px;    
+}
+div.address1 #input-address1,div.address2 #input-address2{
+    width: 695px;
+    margin-left: 3px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+div.city-div{
+    display: inline-block;
+    position: relative;
+    top: 70px;
+    left: 20px;
+}
+div.state-div{
+    display: inline-block;
+    position: relative;
+    top: 70px;
+    left: 24px;
+}
+div.zip-div{
+    display: inline-block;
+    position: relative;
+    top: 70px;
+    left: 30px;
+}
+div.city-div #input-city{
+    width: 340px;
+    margin-left: 3px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+div.state-div #input-state{
+    width: 220px;
+    margin-left: 3px;
+    border-radius: 3px;
+    border: 1px solid grey;
+
+}
+div.zip-div #input-zip{
+    width: 105px;
+    margin-left: 3px;
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+div.checkbox-div{
+    position: relative;
+    top: 80px;
+    left: 20px;
+}
+div.signIn-button{
+    position: relative;
+    top: 90px;
+    left: 20px;
+}
+div.signIn-button #submit-button{
+    height: 25px;
+    background-color: #0079fa;
+    color: white;
+    border-radius: 5px;
+    border: none;
+}

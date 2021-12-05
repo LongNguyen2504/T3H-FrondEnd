@@ -1,0 +1,51 @@
+input{
+    border-radius: 2px;
+    border:none;
+}
+#submit{
+    background-color: #a7d2fc;
+}
+table{
+    /* width: 450px;
+    height: 300px;  */
+    /* width: 75%; */
+    background-color: #f5f5dd;
+    border: 2px solid #b9d2fb;
+    height: 300px;
+}
+.address1,.address2{
+    width: 96%;
+}
+.td-city{
+    width: 50%;
+}
+.td-state{
+    width: 30%;
+}
+.td-zip{
+    width: 20%;
+}
+.td-city #input-city{
+    width: 92%;
+}
+.td-state #input-state{
+    width: 90%;
+}
+.td-zip #input-zip{
+    width: 79%;
+}
+.td-email #input-email{
+    width: 92%;
+}
+.td-password #input-password{
+    width: 92%;
+}
+#submit-button{
+    color: white;
+    border-radius: 5px;
+    height: 25px;
+    background-color: #0079fa;
+}
+input[type=text]{
+    background-color: powderblue;
+}

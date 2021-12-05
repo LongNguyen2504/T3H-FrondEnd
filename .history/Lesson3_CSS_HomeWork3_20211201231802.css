@@ -1,0 +1,110 @@
+div.ancestor-div{
+    width: 900px;
+    height: 400px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+div.menu-div{
+    height: 48px;
+    background-color: #333333 ;
+}
+div.menu-content{
+    position: relative;
+    left: -40px;
+    width: 800px;
+    height: 48px;
+}
+div.nested-div{
+    width: 680px;
+    height: 400px;
+    background-color: aqua;
+    position: absolute;
+    left: 144px;
+    top: 80px;
+    border-left: 1px solid #2a2a2a;
+}
+div.menu-bootstrap{
+    width: 680px;
+    height: 40px;
+    background-color: #2a3d51;
+    position: relative;
+    left: -1px;
+}
+div.menu-bootstrap-content1{
+    width: 200px;
+    height: 30px;
+    position: absolute;
+    left: 6px;
+    top: 9px;
+    
+    text-align: center;
+    color: white;
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+}
+div.menu-bootstrap-content2{
+    width: 300px;
+    height: 30px;
+    position: absolute;
+    left: 412px;
+    
+    top: -12px;
+    
+}
+div.contact-me-div{
+    position: relative;
+    top: 80px;
+    left: -5px;
+    background-color: #4caf50;
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 25px;
+    font-weight: bold;
+    color: #2a3d51;
+}
+div.Name{
+    width: 300px;
+    height: 50px;
+    position: absolute;
+    top: 50px;
+    left: 30px;
+    background-color: antiquewhite;
+}
+div.Email{
+    width: 300px;
+    height: 50px;
+}
+div.Message{
+    width: 300px;
+    height: 50px;
+}
+ul.ul-menu{
+    list-style-type: none;
+    
+}
+.li-menu {
+ float: left; 
+}
+a.a-menu{
+    display: inline-block;
+    padding: 15px;
+    color: white;
+    text-decoration: none;
+    text-align: center;
+    
+}
+.a-menu:hover{
+    background-color: #4caf50;
+}
+a.a-menu-2{
+    display: inline-block;
+    padding: 10px;
+    text-align: center;
+    color: white;
+    text-decoration: none;
+    font-size: 12px;
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
+a.a-menu-2:hover{
+    background-color: #19232f;
+}
